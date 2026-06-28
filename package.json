@@ -86,8 +86,8 @@
     "vite": "^8.0.16"
   },
   "scripts": {
-  "dev": "vite dev",
-  "build": "vite build",
-  "start": "node .output/server/index.mjs"
+  "dev": "bun run dev",
+  "build": "bun run build",
+  "start": "bun run start"
   }
 }
