@@ -22,13 +22,11 @@ const NAV: { section: string; items: NavItem[] }[] = [
       { to: "/agenda", label: "Agenda", icon: Calendar },
       { to: "/habits", label: "Hábitos", icon: Flame },
       { to: "/goals", label: "Metas", icon: Target },
-      { to: "/notes", label: "Anotações", icon: NotebookPen },
     ],
   },
   {
     section: "Trabalho",
     items: [
-      { to: "/work", label: "Elo Marketing", icon: Briefcase },
       { to: "/freelancers", label: "Freelancers", icon: Users },
       { to: "/finance", label: "Financeiro", icon: Wallet },
     ],
@@ -36,11 +34,9 @@ const NAV: { section: string; items: NavItem[] }[] = [
   {
     section: "Crescimento",
     items: [
-      { to: "/studies", label: "Estudos", icon: BookOpen },
       { to: "/courses", label: "Cursos", icon: GraduationCap },
       { to: "/workout", label: "Treino", icon: Dumbbell },
       { to: "/nutrition", label: "Alimentação", icon: Apple },
-      { to: "/ai", label: "IA", icon: Sparkles },
     ],
   },
 ];
